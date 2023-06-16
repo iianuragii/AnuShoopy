@@ -1,6 +1,6 @@
 import React from 'react'
 
-const MenuCard = ({menuData}) => {
+const ShopCard = ({menuData}) => {
   return (
     <>
         <section className='main-card-container'>
@@ -32,4 +32,4 @@ const MenuCard = ({menuData}) => {
   )
 }
 
-export default MenuCard
+export default ShopCard

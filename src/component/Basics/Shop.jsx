@@ -1,9 +1,9 @@
 import React from 'react';
 import './style.css';
 import Menu from './menuApi';
-import MenuCard from './MenuCard';
+import MenuCard from './ShopCard';
 
-const Restaurant = () => {
+const Shop = () => {
     const [menuData, setMenuData] = React.useState(Menu);
 
     const filterItem = (category) => {
@@ -30,4 +30,4 @@ const Restaurant = () => {
   );
 };
 
-export default Restaurant
+export default Shop
