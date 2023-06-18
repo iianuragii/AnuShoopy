@@ -14,11 +14,12 @@ html {
   font-weight: 400;
 }
 
-h1{
+.start{
   text-align: center;
   font-family: sans-serif;
   padding-top: 3%;
   color: black;
+  font-size: 40px;
 }
 
 *,
@@ -219,4 +220,25 @@ h1{
 .btn-group__item--active:after {
   opacity: 1;
   transform: translatey(-2px);
+}
+
+.footer-top{
+  background-color: #485667;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.footer-main{
+  background-color: #232F3E;
+  color: whitesmoke;
+  padding: 150px;
+}
+h1{
+  font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+  color: grey;
+  font-family: Arial, Helvetica, sans-serif;
 }

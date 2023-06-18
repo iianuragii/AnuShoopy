@@ -15,7 +15,7 @@ const Shop = () => {
 
     return (
     <>
-        <h1>Welcome to a brand new type of storefront, Anushoopy</h1>
+        <div className='start'>Welcome to a brand new type of storefront, Anushoopy</div>
         <nav className='navbar'>
             <div className='btn-group'>
                 <button className='btn-group__item' onClick={() => filterItem("Summer Outfits")}>AnuSummer Outfits</button>
@@ -26,6 +26,7 @@ const Shop = () => {
         </nav>
 
         <MenuCard menuData={menuData}/>
+
     </>
   );
 };
