@@ -28,19 +28,7 @@ const ShopCard = ({menuData}) => {
             })
         }
         </section>
-        <section className='footer'>
-            <div className='footer-top'>
-                Back to top
-            </div>
-            <div className='footer-main'>
-                <h1>Get to know us</h1>
-                <br></br>
-                <h4>About</h4>
-                <h4>Careers</h4>
-                <h4>Press Releases</h4>
-                <h4>Anushoopy Sciences</h4>
-            </div>
-        </section>
+       
     </>
   )
 }
