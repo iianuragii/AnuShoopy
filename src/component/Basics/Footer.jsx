@@ -1,10 +1,12 @@
 import React from 'react'
+import ScrollToTop from "react-scroll-to-top";
 
 const navbar = () => {
   return (
         <section className='footer'>
         <div className='footer-top'>
-            Back to top
+            Anushoopy
+            <ScrollToTop smooth/>
         </div>
         <div className='footer-main'>
             <div className='footer-card'>
