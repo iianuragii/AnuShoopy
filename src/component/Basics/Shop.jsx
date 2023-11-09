@@ -17,8 +17,8 @@ const Shop = () => {
     const { loginWithRedirect, logout, isAuthenticated, user } = useAuth0();
     return (
     <>
-        { isAuthenticated ? (
-            
+        <section className='head'>
+        { isAuthenticated ? (            
             <div className='auth'>
                 <div className='name'>Hey {user.name}, isn't it a Great Day to start off with your Shopping???</div>
                 <button className='log' onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
@@ -44,6 +44,7 @@ const Shop = () => {
                 
             </div>
         </nav>
+        </section>
         <MenuCard menuData={menuData}/>
         <Footer/>
     </>

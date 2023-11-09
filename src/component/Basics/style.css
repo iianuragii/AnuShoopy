@@ -284,3 +284,30 @@ p{
   font-size: 0.7cm;
   color: #dc4156dc;
 }
+
+@media (max-width: 998px) {
+  .start{
+    text-align: center;
+    font-family: sans-serif;
+    
+    color: black;
+    font-size: 40px;
+  }
+  .footer{
+    width: max-content;
+  }
+  .head{
+    padding-top: 1cm;
+    padding-left: 2cm;
+    width: max-content;
+    text-align: center;
+  }
+  .main-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(300px, 500px));
+    grid-gap: 50px;
+    justify-content: space-around;
+    width: fit-content;
+    padding-left: 1cm;
+  }
+}
