@@ -17,7 +17,7 @@ html {
 .start{
   text-align: center;
   font-family: sans-serif;
-  padding-top: 3%;
+  padding-top: 2%;
   color: black;
   font-size: 40px;
 }
@@ -267,4 +267,20 @@ h4{
 }
 p{
   padding-bottom: 5px;
+}
+.auth{
+  padding-top: 0.5cm;
+  text-align: right;
+  padding-right: 1cm;
+}
+.log{
+  padding: 0.4cm;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #9a96e5dc;
+}
+.name{
+  text-align: center;
+  font-size: 0.7cm;
+  color: #dc4156dc;
 }
