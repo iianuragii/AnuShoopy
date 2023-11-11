@@ -27,7 +27,7 @@ const Shop = () => {
             </div>
         ) : (
             <div className='auth'>
-                <button className='log' onClick={() => loginWithRedirect()}>Log In</button>
+                <button className='log' onClick={() => loginWithRedirect()}>Log-In/Sign-Up</button>
             </div>
         )}      
        
