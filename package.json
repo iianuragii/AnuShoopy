@@ -1,6 +1,6 @@
 {
   "name": "anufoody",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "@auth0/auth0-react": "^2.2.3",
@@ -13,10 +13,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-  "dev": "vite",
-  "build": "set \"VITE_CJS_TRACE=true\" && vite build",
-  "serve": "vite preview"
-},
+    "dev": "vite",
+    "build": "set \"VITE_CJS_TRACE=true\" && vite build",
+    "serve": "vite preview"
+  },
   "eslintConfig": {
     "extends": [
       "react-app",
