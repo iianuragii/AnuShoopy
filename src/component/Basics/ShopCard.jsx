@@ -27,8 +27,7 @@ const ShopCard = ({menuData}) => {
                 );
             })
         }
-        </section>
-       
+        </section>       
     </>
   )
 }
